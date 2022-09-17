@@ -132,12 +132,12 @@ const Skills = () => {
                 className="transition logo m-lg-5 m-2 indigo-text"
               />
             </a>
-          </div>
         <div>
           <Link className="btn btn-dark btn-lg transition mb-5" to="/Projects">
             En savoir plus ?
           </Link>
         </div>
+          </div>
       </section>
     </>
   );

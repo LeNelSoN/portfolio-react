@@ -16,7 +16,7 @@ const Projects = () => {
       <h2 className="text-light mt-5">Mes oeuvres</h2>
       <hr />
       <div >
-        <div id="galerie" className="row d-flex justify-content-center align-items-center">
+        <div id="galerie" className="row d-flex m-5 m-lg-0 justify-content-center align-items-center">
           <CardProject
             img={Pokedex}
             title={"Pokédex"}
