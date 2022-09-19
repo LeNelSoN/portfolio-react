@@ -11,7 +11,7 @@ import Links from './components/Links'
 function App() {
   return (
     <>
-      <NavBar />
+      <NavBar/>
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/About' element={<About />}/>

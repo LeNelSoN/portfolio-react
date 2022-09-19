@@ -11,15 +11,16 @@ const Home = () => {
 
           <p className="m-5">
             Je suis Valentin Nelis et           
-          </p>
+          
             <Typewriter
             options={{
-              strings: ('<p>bienvenue sur mon portfolio</p>'),
+              strings: ('bienvenue sur mon portfolio'),
               deleteSpeed : 30,
               autoStart: true,
               loop: true,
             }}
           />
+          </p>
           <Link className="btn btn-dark btn-lg transition" to="/About">
             On continue ?
           </Link>

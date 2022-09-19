@@ -1,1 +1,24 @@
 @import '../../../node_modules/bootstrap/scss/navbar';
+
+nav{
+    height: 100%;
+    li{
+        transition: all 0.3s ease-out;
+        opacity: 0.4;
+        &:hover{
+            transform: scale(1.1);
+            opacity: 1;
+        }
+    }
+    small{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    small{
+        font-size: 0.5rem;
+    }
+}
+  

@@ -11,7 +11,6 @@ import {
 import { SiJavascript, SiBootstrap, SiCanva, SiVisualstudiocode, SiInsomnia } from "react-icons/si";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Link } from "react-router-dom";
 
 const Skills = () => {
   useEffect(() => {
@@ -25,13 +24,11 @@ const Skills = () => {
         id="Skills"
         className="vh-100 text-center d-flex flex-column align-items-center justify-content-center bg-skills text-light"
       >
-        <div className="container-fluid">
-        <div className="mt-5">
+        <div className="container">
+        <div>
           <h2>Mes compétences</h2>
-          <hr />
           <p>Voici ce que j'utilise techniquement</p>
         </div>
-
             <a
               href="https://www.w3schools.com/html/"
               target="_blank"
@@ -121,22 +118,17 @@ const Skills = () => {
             <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">
               <SiVisualstudiocode
                 data-aos="zoom-in"
-                data-aos-delay="2000"
+                data-aos-delay="2200"
                 className="transition logo m-lg-5 m-2 text-info"
               />
             </a>
-            <a href="https://canva.com/" target="_blank" rel="noreferrer">
+            <a href="https://insomnia.rest/" target="_blank" rel="noreferrer">
               <SiInsomnia
                 data-aos="zoom-in"
-                data-aos-delay="2000"
+                data-aos-delay="2400"
                 className="transition logo m-lg-5 m-2 indigo-text"
               />
             </a>
-        <div>
-          <Link className="btn btn-dark btn-lg transition mb-5" to="/Projects">
-            En savoir plus ?
-          </Link>
-        </div>
           </div>
       </section>
     </>
