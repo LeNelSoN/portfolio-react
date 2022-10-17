@@ -11,7 +11,7 @@ const Projects = () => {
   
   return (
         <div className=' bg-footer' >
-        <div className="container">
+        <div className="container pb-5">
           <h2 className="h2 text-light pt-4">Mes Projets</h2>
           <hr className="mb-4"/>
           <div className="row d-flex justify-content-evenly justify-content-center m-2">
