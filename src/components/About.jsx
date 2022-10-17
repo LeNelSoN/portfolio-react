@@ -1,11 +1,15 @@
 import React from "react";
 import Valentin from '../assets/Photo-moi.jpg';
+import { useMediaQuery } from "react-responsive";
 
 const About = () => {
+
+  const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
+
   return (
     <section id="About" className="bg-footer">
-      <div className="container vh-100 text-center d-flex flex-column align-items-center justify-content-center text-light p-5">
-        <div className="row ms-4">
+      <div className={`container text-center d-flex flex-column align-items-center justify-content-center text-light p-5 ${!isMobile && 'vh-100'}`}>
+        <div className="row ms-md-4">
           <div className="col-12 col-lg-6">
             <img
               src={Valentin}
